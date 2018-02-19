@@ -31,7 +31,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity implements MovieAdapter.ItemClickListener {
 
     private static final String BASE_URL = "http://api.themoviedb.org/3/";
-    private final static String API_KEY = "67bd9236cf89d9b21b9fa775586c7453";
+    private final static String API_KEY = "";
     private RecyclerView recyclerView;
     private MovieAdapter movieAdapter;
     private List<Movie> movieList = new ArrayList<>();
